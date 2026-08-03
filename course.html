@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+</head>
+<body>
+     <section class="sub-header">
+         <nav>
+              <a href="index.html"><img src="images/project-logo.jpeg" alt="logo"></a>
+              <div class="nav-links" id="navLinks">
+              <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                     <li><a href="contact us.html">CONTACT</a></li>
+                 </ul>
+              </div>
+              <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <h1>Our Courses</h1>
+     </section>
+
+
+     <!----- Our Courses ----->
+
+
+     <section class="course">
+         <h1>Courses We Offer</h1>
+         <p>Explore industry-focused programs designed to prepare you for a successful career in technology.</p>
+         <div class="row">
+             <div class="course-col">
+                 <h3>Intermediate</h3>
+                 <p>Build a strong academic foundation with essential subjects that prepare students for higher education and future professional growth.</p>
+             </div>
+             <div class="course-col">
+                 <h3>Degree</h3>
+                 <p>Our undergraduate degree programs combine theoretical knowledge with hands-on experience to develop skilled and confident graduates.</p>
+             </div>
+             <div class="course-col">
+                 <h3>Post graduation</h3>
+                 <p>Advance your expertise through specialized postgraduate programs focused on research, innovation, and professional excellence.</p>
+             </div>
+
+         </div>
+     </section>
+
+
+     <!------ Facilites ----->
+
+     <section class="facilites">
+         <h1>Our Facilities</h1>
+         <p>We offer modern facilities that create a inspiring environment for learning and personal development.</p>
+
+         <div class="row">
+             <div class="facilites-col">
+                 <img src="./images/library.jpeg" alt="Library Image">
+                 <h3>World Class Library</h3>
+                 <p>Our extensive library provides thousands of books, digital resources, and quiet study spaces for academic success.</p>
+             </div>
+             <div class="facilites-col">
+                 <img src="images/playground.jpeg" alt="Playground Image">
+                 <h3>Largest Playground</h3>
+                 <p>Students enjoy spacious sports grounds that encourage physical fitness, teamwork, and healthy competition.</p>
+             </div>
+             <div class="facilites-col">
+                 <img src="./images/cafeteria.jpeg" alt="Cafeteria Image">
+                 <h3>Healthy Food</h3>
+                 <p>Our campus cafeterias serve fresh, nutritious, and delicious meals to support students' health and well-being.</p>
+             </div>
+
+
+         </div>
+     </section>
+
+
+     <!----- Footer ----->
+     <section class="footer">
+         <h4>ABOUT US</h4>
+         <p>We are committed to providing quality education, fostering innovation, and empowering students to achieve their academic and professional goals.</p>
+         <div class="icons">
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> By Musaffa Dar</p>
+     </section>
+
+     <!----JavaScript for toggle menu---->
+     <script>
+
+         var navLinks = document.getElementById("navLinks")
+         function showMenu(){
+            navLinks.style.right="0";
+         }
+         function hideMenu(){
+            navLinks.style.right="-200px";
+         }
+     </script>
+
+</body>
+</html>
