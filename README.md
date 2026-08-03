@@ -1,6 +1,6 @@
 # University Website
 
-A responsive university website built using HTML, CSS, and JavaScript.
+A responsive university website built using HTML and CSS.
 
 ## Features
 - Responsive Design
@@ -13,7 +13,6 @@ A responsive university website built using HTML, CSS, and JavaScript.
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
 
 ## How to Run
 1. Download or clone the repository.
